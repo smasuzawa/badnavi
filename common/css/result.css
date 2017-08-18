@@ -1,0 +1,368 @@
+/* CSS Document */
+
+#resultBlock{
+}
+
+#resultBlock .resultList h3.roundTxt{
+	font-size:16px;
+	font-weight:bold;
+	color:#238c38;
+	border-left:5px solid #238c38;
+	padding-left:10px;
+	display:block;
+}
+#resultBlock .resultList h3.roundTxt em{
+	font-size:12px;
+	font-style:normal;
+	display:inline-block;
+	padding-top:5px;
+	color:#666;
+}
+#resultBlock h2{
+	margin-bottom:0px;
+}
+#resultBlock h2 span{
+	padding-left:0px;
+}
+#resultBlock .resultList{
+	border:1px solid #c6e1cb;
+	background:#FFFFFF;
+}
+#resultBlock .resultList section{
+	padding:15px 20px;
+	border-bottom:1px solid  #c6e1cb;
+}
+#resultBlock .resultList section .tblCont{
+	display:table-cell;
+	vertical-align:middle;
+}
+#resultBlock .resultList section .tblCont h3{
+	font-size:20px;
+	font-weight:bold;
+	margin:0px;
+ word-break: break-all;
+}
+#resultBlock .resultList section .tblCont p{
+	font-size:12px;
+	color:#666;
+	margin:0px;
+}
+#resultBlock .resultList section .tblCont .photo{
+	width:80px;
+	overflow:hidden;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#resultBlock .resultList section .tblCont .columnL{
+	float:left;
+}
+#resultBlock .resultList section .tblCont .columnR{
+	float:right;
+}
+
+#resultBlock .resultList section .tblCont .photo img{
+	max-width:80px;
+	max-height:80px;
+}
+#resultBlock .resultList section .tblCont .txt{
+	width:95px;
+}
+#resultBlock .resultList section .tblCont .txt.noPhoto{
+	display:table-cell;
+	width:205px;
+	vertical-align:middle;
+	text-align:center;
+}
+
+#resultBlock .resultList section .tblCont .txt.noPhoto h3{
+	font-size:26px;
+}
+#resultBlock .resultList section .playerLeft{
+	width:200px;
+}
+#resultBlock .resultList section .playerRight{
+	width:200px;
+}
+#resultBlock .resultList section .resultInfo{
+	width:240px;
+	text-align:center;
+}
+
+#resultBlock .resultList section .resultInfo p,
+#resultBlock .resultList section .resultInfo ul{
+	display:inline-block;
+	text-align:center;
+	padding:0 10px;
+	line-height: 1.4;
+	font-size: 12px;
+	margin:0px;
+	vertical-align:middle;
+}
+#resultBlock .resultList section .resultInfo p{
+	font-size:70px;
+	color:#999999;
+	font-weight:bold;
+    line-height: 1;
+}
+#resultBlock .resultList section .resultInfo p .taisen{
+	font-size:11px;
+	display:block;
+}
+
+#resultBlock .resultList section .resultInfo em{
+	color:#238c38 !important;
+	font-style:normal;
+}
+#resultBlock .resultList section .resultInfo .noDetail{
+	font-size:70px;
+}
+	
+#resultBlock .resultBtn{
+	padding: 3px 15px 3px 0px;
+	background:url(../img/icon_arrow.png) no-repeat 95% 40%;
+	text-align:left;
+	background-size:6px;
+	display:block;
+	margin:10px auto;
+	border-radius:5px;
+	text-align:center;
+	border:1px solid #CCC;
+	width:80%;
+}
+
+#resultBlock .movieBtn{
+	display:inline-block;
+	width:48%;
+	padding:5px;
+	background:#E8E8E8 url(../img/icon_arrow.png) no-repeat 95% center;
+	text-align:left;
+	margin-top:15px;
+}
+#resultBlock .movieBtn:hover{
+	opacity:0.8;
+}
+#resultBlock .movieBtn img{
+	width:80px;
+	height:auto;
+	margin:0 15px 0 0;
+	
+}
+	
+	
+	
+@media screen and (max-width: 649px) {
+#resultBlock .resultList section {
+    padding: 8px;
+    text-align: center;
+    display: table;
+    width: 95%;
+    margin: 0 auto;
+}
+#resultBlock .resultList section .tblCont{
+	display:inline-block;
+}
+#resultBlock .resultList h3.roundTxt{
+	
+    display: table-caption;
+    text-align: left;
+}
+	#resultBlock .resultList section .tblCont .columnR,
+	#resultBlock .resultList section .tblCont .columnL{
+		float:none;
+	}
+#resultBlock .resultList section .tblCont h3,
+#resultBlock .resultList section .tblCont .txt.noPhoto h3{
+	font-size:14px;
+	padding-top:5px;
+}
+#resultBlock .resultList section .tblCont .txt{
+	width:auto;
+	font-size:10px;
+}
+#resultBlock .resultList section .tblCont p{
+	font-size:10px;
+}
+	#resultBlock .resultList section .tblCont .photo img{
+		width:80%;
+	}
+	#resultBlock .resultList section .playerRight,
+	#resultBlock .resultList section .playerLeft{
+		width:30%;
+	}
+	#resultBlock .resultList section .resultInfo p{
+		width:auto;
+		font-size:20px;
+	}
+#resultBlock .resultList section .resultInfo p .taisen{
+	font-size:10px;
+	width:20px;
+	font-weight:normal;
+}
+
+	#resultBlock .resultList section .resultInfo .noDetail{
+		font-size:30px;
+	}
+	#resultBlock .resultList section .tblCont .txt.noPhoto{
+		width:auto;
+		display:block;
+	}
+	#resultBlock .resultList section .resultInfo{
+		width:35%;
+	}
+#resultBlock .resultList section .tblCont .photo{
+	width:auto;
+}
+#resultBlock .resultList section .resultInfo p,
+#resultBlock .resultList section .resultInfo ul{
+	display:inline-block;
+	padding:0;
+}
+#resultBlock .movieBtn{
+	display:block;
+	width:auto;
+	
+	
+}
+#resultBlock .resultBtn{
+	font-size:12px;
+}
+}
+/** resultHead **/
+.resultHead{
+	background:url(../img/bg_vs.gif) no-repeat center;
+	color:#FFFFFF;
+	background-size:cover;
+	padding:20px 30px;
+}
+.resultHead h3{
+	font-size:18px;
+	font-weight:bold;
+	margin:0px;
+	padding:10px 0 5px 0;
+}
+.resultHead p{
+	font-size:12px;
+}
+.resultHead .playerLeft{
+	width:220px;
+	float:left;
+}
+.resultHead .playerRight{
+	width:220px;
+	float:right;
+}
+.resultHead .phBox{
+	display:block;
+	text-align:center;
+}
+
+.resultHead .phBox img{
+   width: auto;
+   max-height: 145px;
+}
+.resultHead .winNum{
+	display:block;
+	font-weight:bold;
+	text-align:center;
+	font-size:25px;
+	padding-top:10px;
+}
+.resultHead .winNum em{
+	font-size:50px;
+	font-style:normal;
+    line-height: 50px;
+}
+@media screen and (max-width: 700px) {
+.resultHead{
+	padding:10px;
+}
+.resultHead .playerLeft,
+.resultHead .playerRight{
+	width:32%;
+}
+.resultHead h3{
+	font-size:13px;
+	word-break:break-all;
+}
+.resultHead p{
+	font-size:11px;
+}
+
+.resultHead .winNum{
+	font-size:13px;
+}
+.resultHead .winNum em{
+	font-size:25px;
+	font-style:normal;
+    line-height: 25px;
+}
+.resultHead .phBox img{
+   width: 100%;
+   max-height: 145px;
+}
+}
+
+
+
+
+/**20161124**/
+.taisenBox{
+	letter-spacing: -0.4em;
+}
+.taisenBox li{
+	letter-spacing: normal;
+	width: 49%;
+	height: 220px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	padding: 0px;
+	position: relative;
+	vertical-align: top;
+	display: inline-block;
+}
+.taisenBox li img{
+	width: auto;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+.taisenBox li:nth-child(odd){
+	margin-right: 2%;
+}
+.taisenBox .taisenCover{
+	position: absolute;
+	background: url(../img/taisen_bg.png) no-repeat center bottom;
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+	left: 0px;
+	bottom:0px;
+}
+
+.taisenBox span{
+	font-size: 16px;
+}
+.taisenBox .playerName{
+	position: absolute;
+	bottom: 22%;
+	text-align: center;
+	width: 100%;
+	color: #FFFFFF;
+}
+.taisenBox .pointWin{
+	position: absolute;
+	bottom: 4%;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+}
+.taisenBox .pointLose{
+	position: absolute;
+	bottom: 4%;
+	
+	left: 50%;
+	text-align: center;
+	width: 50%;
+	color: #FFFFFF;
+}

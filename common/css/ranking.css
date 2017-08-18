@@ -1,0 +1,155 @@
+@charset "utf-8";
+.greenTtl1 span.icnCrown{
+	background:url(../img/icon_crown.png) no-repeat left center;
+}
+/*共通パーツ*/
+.container{
+	max-width:1050px;
+}
+.rank-navi{
+	padding:10px 0 20px 0;
+    margin: 0 -1px 0 -1px;
+}
+.pull-right a{
+	    padding: 3px 8px;
+    color: #238c38;
+    display: inline-block;
+    border-color: #238c38;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #238c38;
+}
+.btn-ranking{
+	background:#f2f2f2;
+	border:1px solid #238c38;
+	color: #238c38;
+	margin-bottom:5px;}
+.btn-ranking:hover,
+.btn-ranking.selected{
+	background:#238c38;
+	color: #FFFFFF;
+}
+.ttlRank1{
+	background:#434343;
+	color:#FFFFFF;
+	padding:10px;
+	margin:0px;
+	text-align:center
+}
+.rankingTable{
+	width:100%;
+	margin-bottom:10px;
+}
+.bdTop{
+	border-top:3px solid #238c38;
+}
+.rankingTable td{
+	border-bottom:1px solid #CCCCCC;
+	border-top:1px solid #CCCCCC;
+	padding:8px;
+	position:relative;
+}
+.rankingTable .up{
+	color:#FF0004;
+}
+.rankingTable .down{
+	color:#004CFF;
+}
+.rankingTable .rankFirst td{
+	background:#fff1cc;
+}
+
+.rankingTable .rankFirst b{
+	color:#ffba00;
+}
+.rankingTable .rankSecond td{
+	background:#d7d7d7;
+}
+.rankingTable .rankSecond b{
+	color:#939393;
+}
+.rankingTable .rankThird td{
+	background:#f9e2d7;
+}
+.rankingTable .rankThird b{
+	color:#732d2d;
+}
+
+.rankCell{
+	text-align:center;
+	width:70px;
+	}
+.rankCell b{
+	display:block;
+	font-size:30px;
+	font-weight:bold;
+	line-height:30px;
+	}
+.photoCell {
+	width:65px;
+	height:80px;
+	text-align:center;
+}
+.photoCell img{
+	max-height:60px; 
+	max-width:60px; 
+}
+.nameCell{
+}
+.nameCell a{
+	font-size:70%;
+	color:#238c38;
+}
+.nameCell a .nameTxt{
+	font-size:14px;
+	color:#333;
+}
+.pointCell{
+	text-align:center;
+	width:80px;
+	position:absolute;
+	top:20%;
+	right:0px;
+	font-size:80%;
+}
+.pointCell span{
+	font-size:120%;
+	display:block;
+	font-weight:bold;
+	color:#D30000;
+}
+.contryCell{
+	width:80px;
+	font-size:90%;
+	text-align:center;
+}
+.col-xs-12 .contryCell img{
+	width:35px;
+}
+.col-xs-12 .contryCell{
+	width:60px;
+}
+@media screen and (max-width: 649px) {
+	
+.btn-ranking{
+	padding:5px;
+}
+.nameCell{
+	font-size:110%;
+}
+.rankingTable td{
+	line-height:1.2;
+}
+.pointCell{
+	padding-top:5px;
+	display:block;
+	position:static;
+	width:auto;
+	text-align:left;
+}
+.pointCell span{
+	display:inline-block;
+	font-size:100%;
+	width:auto;
+}
+}

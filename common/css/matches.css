@@ -1,0 +1,225 @@
+#resultBlock h2.greenTtl1 {
+  margin-bottom: 20px; }
+  @media only screen and (max-width: 640px) {
+    #resultBlock h2.greenTtl1 {
+      margin: 0 15px; } }
+
+.col-md-8 #resultBlock h2.greenTtl1 {
+  margin: 0; }
+
+#resultBlock h2 span.icnStar {
+  padding-left: 30px;
+  font-size: 20px; }
+
+.linkMore {
+  padding: 10px;
+  line-height: 16px;
+  text-align: right; }
+  .linkMore a {
+    background: url(../img/icon_arrow.png) no-repeat left center;
+    padding-left: 12px;
+    line-height: 12px;
+    background-size: contain;
+    display: inline-block;
+    height: 12px; }
+
+.dayTtl {
+  background: #434343;
+  color: #FFF;
+  font-size: 20px;
+  display: table;
+  line-height: 30px;
+  width: 100%;
+  vertical-align: bottom; }
+  @media only screen and (max-width: 640px) {
+    .dayTtl {
+      padding: 10px; } }
+  .dayTtl p {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 10px; }
+    @media only screen and (max-width: 640px) {
+      .dayTtl p {
+        display: block;
+        padding: 0px; } }
+  .dayTtl span {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    background: #666;
+    margin-right: 10px;
+    font-size: 14px;
+    vertical-align: middle; }
+    @media only screen and (max-width: 640px) {
+      .dayTtl span {
+        display: block;
+        background: none;
+        text-align: left;
+        padding: 0px;
+        line-height: normal; } }
+
+.matchesInfo {
+  padding: 15px;
+  border-bottom: 1px solid #c6e1cb;
+  margin-bottom: 0px; }
+  .matchesInfo dt {
+    width: 8%;
+    padding: 2px 5px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background: #238c38;
+    text-align: center;
+    color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 20px; }
+    @media only screen and (max-width: 640px) {
+      .matchesInfo dt {
+        width: 18%;
+        margin-bottom: 5px; } }
+  .matchesInfo dd {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px; }
+    @media only screen and (max-width: 640px) {
+      .matchesInfo dd {
+        width: 70%; } }
+    .matchesInfo dd.matchesResult {
+      width: 91%; }
+      @media only screen and (max-width: 640px) {
+        .matchesInfo dd.matchesResult {
+          width: 100%; } }
+      .matchesInfo dd.matchesResult ul {
+        margin-left: 10px; }
+        @media only screen and (max-width: 640px) {
+          .matchesInfo dd.matchesResult ul {
+            margin-left: 0px; } }
+      .matchesInfo dd.matchesResult li {
+        padding: 8px; }
+        .matchesInfo dd.matchesResult li:nth-child(odd) {
+          background: #EEE; }
+        .matchesInfo dd.matchesResult li em {
+          display: table-cell;
+          width: 240px;
+          font-size: 12px; }
+          @media only screen and (max-width: 640px) {
+            .matchesInfo dd.matchesResult li em {
+              width: auto;
+              display: block; } }
+        .matchesInfo dd.matchesResult li span {
+          display: table-cell;
+          font-size: 12px; }
+          @media only screen and (max-width: 640px) {
+            .matchesInfo dd.matchesResult li span {
+              width: auto;
+              display: block; } }
+        .matchesInfo dd.matchesResult li a {
+          display: inline-block;
+          padding-left: 5px; }
+
+.resultTxt {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 15px; }
+  .resultTxt em {
+    color: #238c38;
+    font-size: 14px; }
+
+.matchesResultList {
+  background: #FFFFFF; }
+  .matchesResultList h2 {
+    background: #434343;
+    color: #FFF;
+    padding: 10px;
+    text-align: left; }
+  .matchesResultList td, .matchesResultList th {
+    padding: 2px; }
+  .matchesResultList tr {
+    border-bottom: 1px dotted #CCC; }
+    .matchesResultList tr.doubles {
+      border: none; }
+  .matchesResultList .rankCell b {
+    font-size: 16px;
+    line-height: 1.2; }
+  .matchesResultList .photoCell {
+    height: auto; }
+  .matchesResultList .rankingTable .rankFirst td,
+  .matchesResultList .rankingTable .rankSecond td,
+  .matchesResultList .rankingTable .rankThird td {
+    background: none;
+    border: none; }
+  .matchesResultList .rankFirst {
+    color: #ffbb00; }
+    .matchesResultList .rankFirst b:before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      background: url(../img/crown1.png) no-repeat center;
+      background-size: contain; }
+  .matchesResultList .rankSecond {
+    color: #434343; }
+    .matchesResultList .rankSecond b:before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      background: url(../img/crown2.png) no-repeat center;
+      background-size: contain; }
+  .matchesResultList .rankThird {
+    color: #7c4040; }
+    .matchesResultList .rankThird b:before {
+      content: "";
+      display: inline-block;
+      width: 50px;
+      height: 25px;
+      background: url(../img/crown3.png) no-repeat center;
+      background-size: contain; }
+  .matchesResultList .rankingTable {
+    width: 100%; }
+  .matchesResultList .rankCell {
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    width: 10%; }
+    .matchesResultList .rankCell b {
+      text-align: center;
+      display: block; }
+  .matchesResultList .photoCell {
+    width: 10%; }
+    .matchesResultList .photoCell img {
+      max-width: 60px;
+      max-height: 60px; }
+    @media only screen and (max-width: 640px) {
+      .matchesResultList .photoCell {
+        display: none; } }
+  .matchesResultList .nameCell {
+    width: 65%; }
+    .matchesResultList .nameCell a {
+      color: #238c38; }
+      @media only screen and (max-width: 640px) {
+        .matchesResultList .nameCell a {
+          font-size: 11px; } }
+      .matchesResultList .nameCell a span {
+        color: #333;
+        font-size: 16px; }
+        @media only screen and (max-width: 640px) {
+          .matchesResultList .nameCell a span {
+            font-size: 13px; } }
+  .matchesResultList .contryCell {
+    width: 15%;
+    text-align: center;
+    color: #333; }
+
+.rankBlock h3 {
+  font-weight: bold;
+  margin-top: 0px; }
+
+.rankBlock h3::before {
+  margin-right: 5px; }
+
+.sideBlock {
+  width: auto; }
